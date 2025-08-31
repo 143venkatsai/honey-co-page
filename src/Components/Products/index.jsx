@@ -349,7 +349,7 @@ const Products = () => {
                 </div>
               </div>
               {/* Labels */}
-              <div className="flex justify-between text-sm text-gray-700 mt-2">
+              <div className="flex justify-between text-sm text-[#313131] mt-2">
                 <span>Clean &amp; Intense</span>
                 <span>Bold &amp; Intense</span>
               </div>
