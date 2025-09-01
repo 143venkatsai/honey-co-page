@@ -66,7 +66,7 @@ const Header = () => {
           <GoSearch className="h-5 w-5" />
           <div className="relative">
             <PiBag className="h-5 w-5" />
-            <span className="absolute -top-2 -right-2 bg-yellow-400 text-black text-xs rounded-full px-2 py-0.5 font-semibold">
+            <span className="absolute -top-2 -right-2 bg-yellow-400 text-black text-xs rounded-full px-2 py-1 font-semibold">
               0
             </span>
           </div>
