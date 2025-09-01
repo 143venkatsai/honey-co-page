@@ -33,10 +33,15 @@ const Header = () => {
           <li>Rewards</li>
           <li>Contact</li>
         </ul>
-        <div className="flex items-center gap-5">
-          <GoPerson className="h-6 w-6" />
-          <GoSearch className="h-6 w-6" />
-          <PiBag className="h-6 w-6" />
+        <div className="flex items-center gap-3 ">
+          <GoPerson className="h-5 w-5" />
+          <GoSearch className="h-5 w-5" />
+          <div className="relative">
+            <PiBag className="h-5 w-5" />
+            <span className="absolute -top-2 -right-2 bg-yellow-400 text-black text-xs rounded-full px-1 py-0.5 font-semibold">
+              0
+            </span>
+          </div>
         </div>
       </header>
 
@@ -59,7 +64,12 @@ const Header = () => {
         <div className="flex items-center gap-3 ml-auto">
           <GoPerson className="h-5 w-5" />
           <GoSearch className="h-5 w-5" />
-          <PiBag className="h-5 w-5" />
+          <div className="relative">
+            <PiBag className="h-5 w-5" />
+            <span className="absolute -top-2 -right-2 bg-yellow-400 text-black text-xs rounded-full px-2 py-0.5 font-semibold">
+              0
+            </span>
+          </div>
         </div>
       </header>
     </>
